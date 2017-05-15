@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GraphBuilder.XmlSerializableDictionary&lt;TKey, TValue&gt;">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>DataStorage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphBuilder.DataStorage">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggCAAoAAgAMAAgAIAgIAAQEAAAEAIAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStorage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.XmlSerializableEdgeBag" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>EdgeBag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphBuilder.EdgeBag">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAAgA=</HashCode>
+      <FileName>EdgeBag.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Edge" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphBuilder.XmlSerializableVertexBag" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>VertexBag.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GraphBuilder.VertexBag">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAACAAAAAAAAgAEQAAEAA=</HashCode>
+      <FileName>VertexBag.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Vertex" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphBuilder.DeepSearchAlgorithm">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAACIAAAACABQAQAAAAACAAAAACABAEAQAA=</HashCode>
+      <FileName>AlgorithmDeepSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.DekstraAlgorim">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAQAAAAAIAABAAAAAAAAAhAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDeikstra.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DekstraException" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphBuilder.Edge">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQABAAAAAAA=</HashCode>
+      <FileName>AlgorithmDeikstra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.Vertex">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAABA=</HashCode>
+      <FileName>AlgorithmDeikstra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.PrintGrath" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDeikstra.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DekstraAlgorim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphBuilder.DekstraException">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmDeikstra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.AlgorithmPrima">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgACgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AlgorithmPrima.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.DrawingController">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAhQAACAOUAAAAIkAwDAIACAIgMJAIQAAEUQCAQAAA=</HashCode>
+      <FileName>DrawingController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="AlgorithmPrima" />
+      <Property Name="DekstraAlgorim" />
+      <Property Name="DeepSearchAlgorithm" />
+      <Property Name="FileController" />
+      <Property Name="SceneController" />
+      <Property Name="DataStorage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphBuilder.StorageChangeEventArgs" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>FileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.FileController">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgEAAAAAABAAAAAAAAAAAAIAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>FileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.SceneScaleTransformEventArgs" Collapsed="true">
+    <Position X="15.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SceneController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphBuilder.SceneController">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAAAQAAAAAgAAAQAACAAEAAAAAAAAAQCAAAQA=</HashCode>
+      <FileName>SceneController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GraphBuilder.States" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAQAA=</HashCode>
+      <FileName>DrawingController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="GraphBuilder.StorageChangeEventHandler" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>FileController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="GraphBuilder.ScaleTransformEventHandler" Collapsed="true">
+    <Position X="15.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SceneController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
